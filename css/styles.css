@@ -1,0 +1,252 @@
+/* Reset some default styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+#quote {
+    font-size: 1.2em;
+    color: #333;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 80%;
+    text-align: center;
+    background-color: #f4f4f4; 
+    transition: all 0.5s ease;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  #password, #confirmPassword {
+    transition: all 0.5s ease;
+  }
+  #password:focus, #confirmPassword:focus {
+    transform: scale(1.1);
+  }
+  .accountInfo {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+  }
+  
+  .accountInfo p {
+    margin-bottom: 10px;
+  }
+  #costSummary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .costBox {
+    border: 1px solid black;
+    padding: 10px;
+    width: 45%;
+  }
+  
+  .costBox label {
+    font-weight: bold;
+  }
+  
+  .costBox span {
+    margin-left: 10px;
+  }
+  #expensesTable {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Add this to make the table layout fixed */
+  }
+  
+  #expensesTable th, #expensesTable td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+    word-wrap: break-word; /* Add this to break words onto the next line if necessary */
+  }
+  .personExpenses {
+    width: 100%;
+  }
+  
+  .personExpenses td {
+    text-align: right;
+  }
+  .personExpensesWrapper {
+    text-align: right;
+  }
+  
+  .personExpenses {
+    display: inline-table;
+  }
+  .table-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.table-wrapper {
+    width: 40%; /* Reduced from 45% to 40% */
+}
+
+#historyTable {
+    width: 50%; /* Adjust this to change the width of the table */
+    margin-top: 20px;
+    margin-left: 40%;
+    border-collapse: collapse;
+}
+
+#historyTable thead th {
+    background-color: #028733;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#historyTable tbody td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+#historyTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  .color0 { background-color: #ffcccc; }
+  .color1 { background-color: #299329; }
+  .color2 { background-color: #7a7af4; }
+  .color3 { background-color: #bebe6b; }
+  .color4 { background-color: #60a1a1; }
+
+  #bankTable {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#bankTable thead th {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#bankTable tbody td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+#bankTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+  #loginForm {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#loginForm label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#loginForm input[type="tel"],
+#loginForm input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+#loginForm input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#loginForm input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@keyframes highlight {
+    0% { background-color: #ffffff; }
+    50% { background-color: #ffff99; }
+    100% { background-color: #ffffff; }
+}
+
+
+
+
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
